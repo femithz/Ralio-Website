@@ -1,0 +1,54 @@
+<div class="page-header header-filter" style="background-image: url('../../assets/img/bg0.jpg'); background-size: cover; background-position: top center; height: 50em;">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-6 ml-auto mr-auto">
+              <div class="card card-signup">
+                  <form class="form" method="" [formGroup]="loginForm">
+                      <div class="card-header card-header-primary text-center" >
+                          <h4 class="card-title">Log in</h4>
+                      </div>
+                      <div class="card-body" style="height: 10em;">
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="material-icons">face</i>
+                                  </span>
+                              </div>
+                              <input type="text" class="form-control" formControlName="username" placeholder="Enter Your Username">
+                          </div>
+                          <br><br>
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="material-icons">lock_outline</i>
+                                  </span>
+                              </div>
+                              <input type="password" class="form-control" formControlName="password" placeholder="Enter Password">
+                          </div>
+                          <!-- <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="material-icons">lock_outline</i>
+                                    </span>
+                                </div>
+                                <input type="password" class="form-control" formControlName="cpass" placeholder="Enter Password">
+                            </div> -->
+                          <!-- <br>
+                          <div class="input-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="material-icons">lock_outline</i>
+                                  </span>
+                              </div>
+                              <input type="text" class="form-control" formControlName="admincode" placeholder="Enter Admin Code">
+                          </div> -->
+                      </div>
+                      <br><br>
+                      <button style="text-align:center;" (click)="login()"  type="submit" class="btn btn-primary btn-link btn-wd btn-lg">
+                        Login
+                      </button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>

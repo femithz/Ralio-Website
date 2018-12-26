@@ -1,0 +1,311 @@
+ <!--        dashboard navbar  -->
+ <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="">Ralio Admin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto"></ul>
+            <a href="" (click)="logout()">Logout</a>
+        </div>
+        
+    </div>
+</nav>
+<!--    end dashboard navbar -->
+<div class="section section-tabs">
+    <div class="container">
+        <!--  nav tabs	 -->
+        <div id="nav-tabs">
+            <!-- <div class="row"> -->
+                <div class="col-md-12">
+                    <h3>
+                        <strong>Admin Dashboard</strong>
+                    </h3>
+                    <!-- Tabs with icons on Card -->
+                    <div class="card card-nav-tabs">
+                        <div class="card-header card-header-primary">
+                            <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+                            <div class="nav-tabs-navigation">
+                                <div class="nav-tabs-wrapper">
+                                    <ul class="nav nav-tabs" data-tabs="tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#dashboard" data-toggle="tab">
+                                                <i class="material-icons">face</i> Dashboard
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#album" data-toggle="tab">
+                                                <i class="material-icons">chat</i> Add Album
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#single" data-toggle="tab">
+                                                <i class="material-icons">build</i> Add Single
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#albums" data-toggle="tab">
+                                                <i class="material-icons">build</i> Albums
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#singles" data-toggle="tab">
+                                                <i class="material-icons">build</i>  Singles
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#message" data-toggle="tab">
+                                                <i class="material-icons">build</i> Messages
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content text-center">
+                                <div class="tab-pane active" id="dashboard">
+                                    <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                </div>
+                                <div class="tab-pane" id="album">
+                                    <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+                                </div>
+                                <div class="tab-pane" id="single">
+                                   <div class="">
+                                     <p>Add Single Track</p>
+                                        <form action="">
+                                              <div>
+                                                  <div class="form-group has-success">
+                                                      <label for="single-title" class="bmd-label-floating">Enter Title</label>
+                                                      <input type="text" class="form-control" id="single-title">
+                                                      <!-- <span class="form-control-feedback">
+                                                          <i class="material-icons">done</i>
+                                                      </span> -->
+                                                  </div>
+                                              </div>
+                                        </form>
+                                   </div>
+                                </div>
+                                <div class="tab-pane" id="albums">
+                                   <p>List of Album</p>
+                                </div>
+                                <div class="tab-pane" id="singles">
+                                    <p>List of Single Track</p>
+                                </div>
+                                <div class="tab-pane" id="messages">
+                                    <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Tabs with icons on Card -->
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</div>
+<!-- 	            end nav tabs -->
+
+
+
+
+
+
+
+            <!--                 nav pills -->
+            <div id="navigation-pills">
+                <div class="title">
+                    <h3>Navigation Pills</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-8">
+                        <h3>
+                            <small> Horizontal tabs</small>
+                        </h3>
+                        <ul class="nav nav-pills nav-pills-rose">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#pill1" data-toggle="tab">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pill2" data-toggle="tab">Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pill3" data-toggle="tab">Options</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-space">
+                            <div class="tab-pane active" id="pill1">
+                                Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                                <br>
+                                <br> Dramatically visualize customer directed convergence without revolutionary ROI.
+                            </div>
+                            <div class="tab-pane" id="pill2">
+                                Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
+                                <br>
+                                <br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                            </div>
+                            <div class="tab-pane" id="pill3">
+                                Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                                <br>
+                                <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <h3>
+                            <small> Vertical tabs</small>
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul class="nav nav-pills nav-pills-rose flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#tab1" data-toggle="tab">Profile</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#tab2" data-toggle="tab">Settings</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#tab3" data-toggle="tab">Options</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1">
+                                        Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                                        <br>
+                                        <br> Dramatically visualize customer directed convergence without revolutionary ROI.
+                                    </div>
+                                    <div class="tab-pane" id="tab2">
+                                        Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
+                                        <br>
+                                        <br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    </div>
+                                    <div class="tab-pane" id="tab3">
+                                        Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                                        <br>
+                                        <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h3>
+                        <small>With Icons</small>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-8">
+                        <ul class="nav nav-pills nav-pills-icons" role="tablist">
+                            <!--
+                            color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                        -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dashboard-1" role="tab" data-toggle="tab">
+                                    <i class="material-icons">dashboard</i> Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#schedule-1" role="tab" data-toggle="tab">
+                                    <i class="material-icons">schedule</i> Schedule
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">
+                                    <i class="material-icons">list</i> Tasks
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-space">
+                            <div class="tab-pane active" id="dashboard-1">
+                                Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                                <br>
+                                <br> Dramatically visualize customer directed convergence without revolutionary ROI.
+                            </div>
+                            <div class="tab-pane" id="schedule-1">
+                                Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
+                                <br>
+                                <br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                            </div>
+                            <div class="tab-pane" id="tasks-1">
+                                Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                                <br>
+                                <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="nav nav-pills nav-pills-icons flex-column" role="tablist">
+                                    <!--
+                                    color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                                -->
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#dashboard-2" role="tab" data-toggle="tab">
+                                            <i class="material-icons">dashboard</i> Dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#schedule-2" role="tab" data-toggle="tab">
+                                            <i class="material-icons">schedule</i> Schedule
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="dashboard-2">
+                                        Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                                        <br>
+                                        <br> Dramatically visualize customer directed convergence without revolutionary ROI.
+                                    </div>
+                                    <div class="tab-pane" id="schedule-2">
+                                        Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
+                                        <br>
+                                        <br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                 end nav pills -->
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                    <div class="tab-pane fade" id="dashboard/profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
